@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "es2020.string"],
+    "downlevelIteration": true,
+    "module": "commonjs",
+    "outDir": "./dist"
+  },
+
+  "include": ["./"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

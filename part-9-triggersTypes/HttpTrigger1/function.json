@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "dataType": "binary"
+    },
+   {
+  "name": "myOutputBlob",
+  "type": "blob",
+  "path": "testcontainer",
+  "connection": "AzureWebJobsStorage",
+  "direction": "out"
+}
+
+  ],
+  "scriptFile": "../dist/HttpTrigger1/index.js"
+}
+
+

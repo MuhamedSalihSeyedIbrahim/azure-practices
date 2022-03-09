@@ -1,0 +1,15 @@
+{
+    "bindings": [
+        {
+            "name": "msg",
+            "type": "serviceBusTrigger",
+            "direction": "in",
+            "queueName": "testq"
+        },
+        {
+            "name": "starter",
+            "type": "orchestrationClient",
+            "direction": "in"
+        }
+    ]
+}

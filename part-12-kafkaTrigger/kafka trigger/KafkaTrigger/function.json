@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "type": "kafkaTrigger",
+      "name": "event",
+      "direction": "in",
+      "topic": "testTopic",
+      "brokerList": "localhost:9092",
+      "consumerGroup": "testGroup",
+      "dataType": "binary",
+      "FetchMaxBytes": 104857600,
+      "QueuedMaxMessagesKbytes": 104857600,
+      "MaxPartitionFetchBytes": 104857600
+    },
+    {
+      "name": "myOutputBlob",
+      "type": "blob",
+      "path": "kafkatoblob/{rand-guid}.json",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
+    }
+  ]
+}

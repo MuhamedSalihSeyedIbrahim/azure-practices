@@ -1,0 +1,10 @@
+{
+    "endpoint": "xxxx",
+    "key": "xxxx",
+    "databaseId": "excelToJson",
+    "containerId": "excelToJson",
+    "InsertInDb": false,
+    "writeTofile": true,
+    "outputFilePath": "./sampleOP.json",
+    "inputFilePath": "./sampleIP.xlsx"
+}

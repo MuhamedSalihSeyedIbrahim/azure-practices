@@ -1,0 +1,5 @@
+{
+    "log": "./logs/app.log",
+    "distDir": "./dist",
+    "outputFilePath" : "./jsonFile/poItems.json"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "part-4-joke-application-function-with-testing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "jest --config ./jest.config.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.2.2",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.3.3"
+  }
+}

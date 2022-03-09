@@ -1,0 +1,14 @@
+{
+    "endpoint": "https://localhost:8081",
+    "key": "xxxx",
+    "databaseId": "xxx",
+    "containerId": "xxxx",
+    "partitionKey": {
+        "kind": "Hash",
+        "paths": [
+            "/id"
+        ]
+    },
+    "throughPut": 10000,
+    "newRups": 10000
+}

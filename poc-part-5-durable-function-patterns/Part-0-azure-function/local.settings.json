@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": " ",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "FUNCTIONS_V2_COMPATIBILITY_MODE": "true",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "WEBSITE_NODE_DEFAULT_VERSION": "~12",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": " ",
+    "WEBSITE_CONTENTSHARE": "demo",
+    "WEBSITE_RUN_FROM_PACKAGE": "1",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "xxxx"
+  }
+}

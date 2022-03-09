@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "items-lease",
+      "connectionStringSetting": "accvai_DOCUMENTDB",
+      "databaseName": "testdb",
+      "collectionName": "DOCUMENTCOLLECTIONID",
+      "createLeaseCollectionIfNotExists": "true"
+    }
+  ],
+  "scriptFile": "../dist/CosmosTrigger1/index.js"
+}
